@@ -1,15 +1,19 @@
 {
   "name": "@richardeveloper/pluginmediaplayer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Plugin MediaPlayer",
   "main": "lib/MediaPlayer.js",
   "scripts": {
-    "build":"tsc"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Richardeveloper",
   "license": "MIT",
   "dependencies": {
     "typescript": "^4.5.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
