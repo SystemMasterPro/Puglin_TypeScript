@@ -15,5 +15,8 @@
   },
   "browserslist": [
     "last 1 Chrome version"
-  ]
+  ],
+  "dependencies": {
+    "@richardeveloper/pluginmediaplayer": "^1.0.0"
+  }
 }

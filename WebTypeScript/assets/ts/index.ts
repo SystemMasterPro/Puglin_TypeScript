@@ -1,11 +1,12 @@
-import MediaPlayer from "../MediaPlayer";
-import AutoPlay from "../plugins/AutoPlay";
-import AutoPause from "../plugins/AutoPause";
+import MediaPlayer from "@richardeveloper/pluginmediaplayer";
+import AutoPlay from "@richardeveloper/pluginmediaplayer/lib/plugins/AutoPlay";
+import AutoPause from "@richardeveloper/pluginmediaplayer/lib/plugins/AutoPause";
+import Ads from "@richardeveloper/pluginmediaplayer/lib/plugins/Ads/Ads";
 
 const video = document.querySelector('video');
 const player = new MediaPlayer({
     el: video,
-    plugins: [new AutoPlay(), new AutoPause()]
+    plugins: [new AutoPlay(), new AutoPause(), new Ads()],
 });
 
 const playButton: HTMLElement = document.querySelector('#playButton');
@@ -25,3 +26,4 @@ if ('serviceWorker' in navigator) {
         console.log(error.message);
     });
 }
+
