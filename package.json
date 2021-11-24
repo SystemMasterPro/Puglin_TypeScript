@@ -1,0 +1,19 @@
+{
+  "name": "javascript_profesional",
+  "version": "1.0.0",
+  "description": "javascript de forma profesional",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+  },
+  "keywords": [],
+  "author": "Richardeveloper",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4",
+    "typescript": "^4.5.2"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
